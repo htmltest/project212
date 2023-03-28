@@ -222,7 +222,7 @@ strong, b {font-weight:600}
 
 .card {margin:32px 0 0 0}
 .card+.card {margin:16px 0 0 0}
-.card-header {font-size:12px; line-height:17px; text-transform:uppercase}
+.card-header {font-size:12px; line-height:17px; text-transform:uppercase; position:relative}
 .card .collapse {display:none}
 .card .collapse.show {display:block}
 .polis-ready-accordion-link {display:block; color:#3E3E59; text-decoration:none; position:relative; background:url}
@@ -358,6 +358,10 @@ strong, b {font-weight:600}
 .polis-ready2 {padding:205px 0 0 0; background:#F9F3E6}
 .container_fon {background:#F9F3E6 !important}
 
+.polis-ready2-form .btn {display:inline-block; min-height:0 !important; max-height:none !important; max-width:none !important; width:100%; vertical-align:top; margin:32px 0 0 0; padding:19px 30px; overflow:visible; outline:none; text-decoration:none; background:#E86630; color:#FFFFFF; border:none; border-radius:4px; font:600 11px/15px Gilroy, sans-serif; letter-spacing:0.09em; text-transform:uppercase; text-align:center; position:relative; -webkit-appearance:none; cursor:pointer; box-sizing:border-box; transition:background 0.4s ease, color 0.4s ease}
+.polis-ready2-form .btn:hover {background:#ED885E; color:#FFFFFF}
+.polis-ready2-form .btn.btn_gray {background:#F8F8FC; color:#5C5C73; cursor:default}
+
 .polis-ready2 .container {max-width:1060px !important; margin:0 auto !important; padding-bottom:120px}
 .polis-ready2 .polis-ready2-wr::after {content:""; display:block; clear:both}
 .polis-ready2 .polis-ready2-form {float:left; width:100%}
@@ -367,11 +371,10 @@ strong, b {font-weight:600}
 .polis-ready2__change:hover {color:#E86630}
 
 .polis-ready2-card2__bottom {margin:40px 0 0 0}
-.polis-ready2-card2__bottom .btn {display:block; min-height:0 !important; max-height:none !important; max-width:none !important; width:100%; vertical-align:top; margin:32px 0 0 0; padding:19px 0; overflow:visible; outline:none; text-decoration:none; background:#E86630; color:#FFFFFF; border:none; border-radius:4px; font:600 11px/15px Gilroy, sans-serif; letter-spacing:0.09em; text-transform:uppercase; text-align:center; position:relative; -webkit-appearance:none; cursor:pointer; box-sizing:border-box; transition:background 0.4s ease, color 0.4s ease}
-.polis-ready2-card2__bottom .btn:hover {background:#ED885E; color:#FFFFFF}
-.polis-ready2-card2__bottom .btn.btn_gray {background:#F8F8FC; color:#5C5C73; cursor:default}
+.polis-ready2-card2__bottom .btn {display:block; padding:19px 0}
 
-.polis-ready2 .kasko-true2-right {margin:-142px -420px 0 0}
+.polis-ready2 .kasko-true2-right {margin:-142px -420px 0 0; position:relative !important; left:auto !important; width:340px !important; bottom:auto !important; transform:none !important}
+.polis-ready2-right {height:auto !important}
 
 .steps-wr {padding:60px 100px; display:inline-block}
 .steps__title {font-weight:600; font-size:24px; line-height:29px; color:#3E3E59; text-align:center}
