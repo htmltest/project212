@@ -595,11 +595,16 @@ strong, b {font-weight:600}
     .polis-ready2 .kasko-true2-right {margin:32px 0; width:auto !important}
 }
 
+.vm--modal {background:#FFFFFF !important; box-shadow:none !important; height:auto !importantl; overflow:visible !important}
+
+@media (max-width:1200px) {
+    .vm--modal {width:auto !important; left:0 !important}
+}
+
 .steps-wr {padding:60px 100px; display:inline-block}
 .steps__title {font-weight:600; font-size:24px; line-height:29px; color:#3E3E59; text-align:center}
 .steps-wr .btn {display:block; min-height:0 !important; max-height:none !important; max-width:none !important; width:100%; vertical-align:top; margin:32px 0 0 0; padding:19px 0; overflow:visible; outline:none; text-decoration:none; background:#E86630; color:#FFFFFF; border:none; border-radius:4px; font:600 11px/15px Gilroy, sans-serif; letter-spacing:0.09em; text-transform:uppercase; text-align:center; position:relative; -webkit-appearance:none; cursor:pointer; box-sizing:border-box; transition:background 0.4s ease, color 0.4s ease}
 .steps-wr .btn:hover {background:#ED885E; color:#FFFFFF}
-.vm--modal {box-shadow:none !important}
 
 @media (max-width:1200px) {
     .steps-wr {padding:16px}
@@ -615,6 +620,20 @@ strong, b {font-weight:600}
     .steps-520 {width:292px}
     .steps-820 {width:292px}
     .steps-1000 {width:292px}
+}
+
+.steps-welcome {padding:60px 100px; display:inline-block; position:relative}
+.steps-welcome__thumb {display:block; position:absolute; left:50%; top:-200px; width:260px; margin-left:-130px}
+.steps-welcome__title {font-weight:600; font-size:24px; line-height:29px; color:#3E3E59; text-align:center}
+.steps-welcome__text {margin:12px 0 0 0}
+.steps-welcome .btn {display:inline-block; min-height:0 !important; max-height:none !important; max-width:none !important; width:auto; vertical-align:top; margin:32px 0 0 0; padding:19px 30px; overflow:visible; outline:none; text-decoration:none; background:#E86630; color:#FFFFFF; border:none; border-radius:4px; font:600 11px/15px Gilroy, sans-serif; letter-spacing:0.09em; text-transform:uppercase; text-align:center; position:relative; -webkit-appearance:none; cursor:pointer; box-sizing:border-box; transition:background 0.4s ease, color 0.4s ease}
+.steps-welcome .btn:hover {background:#ED885E; color:#FFFFFF}
+
+@media (max-width:1200px) {
+    .steps-welcome {padding:16px}
+    .steps-welcome__thumb {width:200px; top:-180px; margin-left:-100px}
+    .steps-welcome__title {font-size:22px; line-height:29px}
+    .steps-welcome .btn {margin:24px 0 0 0; display:block; padding:12px 0}
 }
 
 .SMS-timer {text-align:center; font-size:17px; line-height:24px; margin:0 0 30px 0}
